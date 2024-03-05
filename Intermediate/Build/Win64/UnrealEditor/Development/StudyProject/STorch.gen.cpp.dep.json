@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\unreal\\studyproject\\intermediate\\build\\win64\\unrealeditor\\inc\\studyproject\\uht\\storch.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unreal\\studyproject\\intermediate\\build\\win64\\studyprojecteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\unreal\\studyproject\\intermediate\\build\\win64\\unrealeditor\\development\\studyproject\\definitions.studyproject.h",
+            "c:\\unreal\\studyproject\\source\\studyproject\\public\\worldstatics\\storch.h",
+            "c:\\unreal\\studyproject\\intermediate\\build\\win64\\unrealeditor\\inc\\studyproject\\uht\\storch.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

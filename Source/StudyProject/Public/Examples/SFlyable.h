@@ -19,6 +19,14 @@ public:
 		Ar << InBirdData.ID;
 		return Ar;
 	}
+	bool operator==(const FBirdData& InBirdData) const
+	{
+		return ID == InBirdData.ID;
+	}
+	friend uint32 GetTypeHash(const FBirdData& InBirdData)
+	{
+		return GetTypeHash(InBirdData.ID);
+	}
 	UPROPERTY()
 	FString Name = TEXT("DefaultBirdName");
 	UPROPERTY()

@@ -1,26 +1,25 @@
 ﻿  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" StudyProjectEditor Win64 Development -Project="C:\unreal\StudyProject\StudyProject.uproject" -WaitMutex -FromMsBuild
   Log file: C:\Users\강문구\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (C:\unreal\StudyProject).
-  Invalidating makefile for StudyProjectEditor (SUnrealObjectClass.cpp.obj.response modified)
+  Invalidating makefile for StudyProjectEditor (STorch.cpp.obj.response modified)
+  Parsing headers for StudyProjectEditor
+    Running Internal UnrealHeaderTool C:\unreal\StudyProject\StudyProject.uproject C:\unreal\StudyProject\Intermediate\Build\Win64\StudyProjectEditor\Development\StudyProjectEditor.uhtmanifest -WarningsAsErrors -installed
+  Total of 2 written
+  Reflection code generated for StudyProjectEditor in 1.0328148 seconds
   Building StudyProjectEditor...
-  Using Visual Studio 2022 14.39.33521 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  [Adaptive Build] Excluded from StudyProject unity file: SUnrealObjectClass.cpp, SFlyable.cpp, SPigeon.cpp, SGameInstance.cpp
+  Using Visual Studio 2022 14.33.31631 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from StudyProject unity file: SFlyable.cpp, SGameInstance.cpp, STorch.cpp
   Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
     Executing up to 6 processes, one per physical core
-    Requested 1.5 GB free memory per action, 8.1 GB available: limiting max parallel actions to 5
-  Building 11 actions with 5 processes...
-  [1/11] Compile SFlyable.cpp
-  [2/11] Compile StudyProject.init.gen.cpp
-  [3/11] Compile SGameInstance.gen.cpp
-  [4/11] Compile SFlyable.gen.cpp
-  [5/11] Compile SPigeon.cpp
-  [6/11] Compile SUnrealObjectClass.cpp
-  [7/11] Compile SGameInstance.cpp
-  [8/11] Compile SPigeon.gen.cpp
-  [9/11] Link UnrealEditor-StudyProject.lib
+    Requested 1.5 GB free memory per action, 6.35 GB available: limiting max parallel actions to 4
+  Building 6 actions with 4 processes...
+  [1/6] Compile StudyProject.init.gen.cpp
+  [2/6] Compile STorch.gen.cpp
+  [3/6] Compile STorch.cpp
+  [4/6] Link UnrealEditor-StudyProject.lib
      Creating library C:\unreal\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\UnrealEditor-StudyProject.lib and object C:\unreal\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\UnrealEditor-StudyProject.exp
-  [10/11] Link UnrealEditor-StudyProject.dll
+  [5/6] Link UnrealEditor-StudyProject.dll
      Creating library C:\unreal\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\UnrealEditor-StudyProject.suppressed.lib and object C:\unreal\StudyProject\Intermediate\Build\Win64\UnrealEditor\Development\StudyProject\UnrealEditor-StudyProject.suppressed.exp
-  [11/11] WriteMetadata StudyProjectEditor.target
-  Total time in Parallel executor: 3.55 seconds
-  Total execution time: 5.37 seconds
+  [6/6] WriteMetadata StudyProjectEditor.target
+  Total time in Parallel executor: 2.73 seconds
+  Total execution time: 5.62 seconds

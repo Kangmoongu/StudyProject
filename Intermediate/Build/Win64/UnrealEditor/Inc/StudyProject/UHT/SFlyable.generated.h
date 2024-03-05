@@ -21,11 +21,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 template<> STUDYPROJECT_API UScriptStruct* StaticStruct<struct FBirdData>();
 
-#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_SPARSE_DATA
-#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_RPC_WRAPPERS
-#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_ACCESSORS
-#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_STANDARD_CONSTRUCTORS \
+#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_SPARSE_DATA
+#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_RPC_WRAPPERS
+#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_ACCESSORS
+#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	STUDYPROJECT_API USFlyable(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USFlyable) \
@@ -39,7 +39,7 @@ public: \
 	STUDYPROJECT_API virtual ~USFlyable();
 
 
-#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_ENHANCED_CONSTRUCTORS \
+#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	STUDYPROJECT_API USFlyable(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -53,7 +53,7 @@ public: \
 	STUDYPROJECT_API virtual ~USFlyable();
 
 
-#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_GENERATED_UINTERFACE_BODY() \
+#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_GENERATED_UINTERFACE_BODY() \
 private: \
 	static void StaticRegisterNativesUSFlyable(); \
 	friend struct Z_Construct_UClass_USFlyable_Statics; \
@@ -62,22 +62,22 @@ public: \
 	DECLARE_SERIALIZER(USFlyable)
 
 
-#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_GENERATED_BODY_LEGACY \
+#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_GENERATED_BODY_LEGACY \
 		PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_GENERATED_UINTERFACE_BODY() \
-	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_STANDARD_CONSTRUCTORS \
+	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_GENERATED_UINTERFACE_BODY() \
+	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_STANDARD_CONSTRUCTORS \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_GENERATED_BODY \
+#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_GENERATED_BODY \
 	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_GENERATED_UINTERFACE_BODY() \
-	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_ENHANCED_CONSTRUCTORS \
+	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_GENERATED_UINTERFACE_BODY() \
+	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_ENHANCED_CONSTRUCTORS \
 private: \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_INCLASS_IINTERFACE_NO_PURE_DECLS \
+#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_INCLASS_IINTERFACE_NO_PURE_DECLS \
 protected: \
 	virtual ~ISFlyable() {} \
 public: \
@@ -86,7 +86,7 @@ public: \
 	virtual UObject* _getUObject() const { return nullptr; }
 
 
-#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_INCLASS_IINTERFACE \
+#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_INCLASS_IINTERFACE \
 protected: \
 	virtual ~ISFlyable() {} \
 public: \
@@ -95,25 +95,25 @@ public: \
 	virtual UObject* _getUObject() const { return nullptr; }
 
 
-#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_30_PROLOG
-#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_GENERATED_BODY_LEGACY \
+#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_38_PROLOG
+#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_49_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_SPARSE_DATA \
-	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_RPC_WRAPPERS \
-	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_ACCESSORS \
-	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_INCLASS_IINTERFACE \
+	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_SPARSE_DATA \
+	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_RPC_WRAPPERS \
+	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_ACCESSORS \
+	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_INCLASS_IINTERFACE \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_GENERATED_BODY \
+#define FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_49_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_SPARSE_DATA \
-	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_ACCESSORS \
-	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_33_INCLASS_IINTERFACE_NO_PURE_DECLS \
+	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_SPARSE_DATA \
+	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_ACCESSORS \
+	FID_unreal_StudyProject_Source_StudyProject_Public_Examples_SFlyable_h_41_INCLASS_IINTERFACE_NO_PURE_DECLS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
