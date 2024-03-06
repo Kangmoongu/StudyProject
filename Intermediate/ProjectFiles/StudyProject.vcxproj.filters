@@ -65,6 +65,18 @@
     <ClCompile Include="..\..\Source\StudyProject\Private\SUnrealObjectClass.cpp">
       <Filter>Source\StudyProject\Private</Filter>
     </ClCompile>
+    <Filter Include="Source\StudyProject\Private\Characters">
+      <UniqueIdentifier>{0FEC8A3D-8085-3A3F-9148-B5BABCCC1B81}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\StudyProject\Private\Characters\SPlayerPawn.cpp">
+      <Filter>Source\StudyProject\Private\Characters</Filter>
+    </ClCompile>
+    <Filter Include="Source\StudyProject\Private\Controllers">
+      <UniqueIdentifier>{B3FC55E2-4C74-31AE-B3B8-D1EFDB67B6B6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\StudyProject\Private\Controllers\SPlayerController.cpp">
+      <Filter>Source\StudyProject\Private\Controllers</Filter>
+    </ClCompile>
     <Filter Include="Source\StudyProject\Private\Examples">
       <UniqueIdentifier>{9AA7A4FA-6EAA-34D4-8391-68FCF7D980B1}</UniqueIdentifier>
     </Filter>
@@ -80,6 +92,9 @@
     <ClCompile Include="..\..\Source\StudyProject\Private\Game\SGameInstance.cpp">
       <Filter>Source\StudyProject\Private\Game</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\StudyProject\Private\Game\SGameMode.cpp">
+      <Filter>Source\StudyProject\Private\Game</Filter>
+    </ClCompile>
     <Filter Include="Source\StudyProject\Private\WorldStatics">
       <UniqueIdentifier>{28CF8A08-4510-35F2-A9B8-3986776F4048}</UniqueIdentifier>
     </Filter>
@@ -91,6 +106,18 @@
     </Filter>
     <ClInclude Include="..\..\Source\StudyProject\Public\SUnrealObjectClass.h">
       <Filter>Source\StudyProject\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\StudyProject\Public\Characters">
+      <UniqueIdentifier>{EDEC102A-E7FF-31DE-9FD7-4BB0E52FF469}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\StudyProject\Public\Characters\SPlayerPawn.h">
+      <Filter>Source\StudyProject\Public\Characters</Filter>
+    </ClInclude>
+    <Filter Include="Source\StudyProject\Public\Controllers">
+      <UniqueIdentifier>{EB3A90B8-C4D0-39B6-B7F1-3F0A5A332D8F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\StudyProject\Public\Controllers\SPlayerController.h">
+      <Filter>Source\StudyProject\Public\Controllers</Filter>
     </ClInclude>
     <Filter Include="Source\StudyProject\Public\Examples">
       <UniqueIdentifier>{C5C69892-D977-3482-9541-D59A22D3582B}</UniqueIdentifier>
@@ -105,6 +132,9 @@
       <UniqueIdentifier>{F2E23D81-01B2-3954-A798-6C685DF24A65}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\StudyProject\Public\Game\SGameInstance.h">
+      <Filter>Source\StudyProject\Public\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\StudyProject\Public\Game\SGameMode.h">
       <Filter>Source\StudyProject\Public\Game</Filter>
     </ClInclude>
     <Filter Include="Source\StudyProject\Public\WorldStatics">
